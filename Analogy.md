@@ -2,7 +2,7 @@ Berikut versi yang sudah saya rapikan dengan struktur markdown yang lebih jelas,
 
 ---
 
-# 🍽️ Analogi SDN: Dapur Restoran
+# Analogi SDN: Dapur Restoran
 
 ## Tanpa Programmability (Dapur Tradisional)
 
@@ -19,9 +19,9 @@ Ada **sous chef pusat** yang memantau seluruh dapur. Chef di setiap station tida
 
 ---
 
-# ⚠️ Analogi DDoS: Mengapa Berbahaya untuk SDN
+#  Analogi DDoS: Mengapa Berbahaya untuk SDN
 
-## 🏢 Customer Service Center
+##  Customer Service Center
 
 ### Situasi Awal
 Customer service punya **3 staff** untuk handle panggilan pelanggan. Ini adalah **multi controller**.
@@ -44,15 +44,15 @@ Kamu punya **3 staff**. Tiba-tiba **1000 panggilan masuk bersamaan dalam 1 detik
 | **Solusi** | Butuh backup (multi controller) | Butuh bandwidth & processing capacity |
 | **Hasil** | Redundancy menyelesaikan masalah | Banyak backup tidak membantu jika semua diserang bersamaan |
 
-### 💡 Jawaban Interview
+###  Jawaban Interview
 
 > *"Multi controller solve availability jika ada hardware failure. Tapi DDoS itu attack dengan intentional overload bandwidth, bukan failure. Attack itu datang ke semua controller bersamaan. Jadi meski ada 3 controller, jika attacker kirim 1000 panggilan palsu sekaligus, semua 3 tetap collapse. Multi controller tidak solve DDoS, cuma solve redundancy untuk fault tolerance."*
 
 ---
 
-# 🤖 Analogi Machine Learning untuk SDN
+#  Analogi Machine Learning untuk SDN
 
-## 🛣️ Sistem Jalan Tol Pintar & Tim Penjaga Keamanan
+##  Sistem Jalan Tol Pintar & Tim Penjaga Keamanan
 
 ### 1. Masalah: SDN dan Serangan DDoS
 
